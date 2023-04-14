@@ -31,6 +31,7 @@ public class test extends base{
 		login log=l.logIn();
 		home h=log.login("Muskan@gmail.com","poiuyt");
 		Assert.assertEquals(h.btn(), "Home");
+		System.out.println("test");
 	}
 	@Test
 	public void test2()
